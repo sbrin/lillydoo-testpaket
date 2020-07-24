@@ -18,6 +18,7 @@
           class="tbx-product__oekotex"
           src="@/assets/img/testpaket/oekotex_green_de.svg"
           alt="Oeko-Tex Certificate"
+          loading="lazy"
         />
         <img
           class="tbx-product__image"
@@ -26,6 +27,7 @@
           :key="item.size"
           :src="item.img"
           :alt="item.weight"
+          loading="lazy"
         />
       </div>
       <div class="tbx-product__details">

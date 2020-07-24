@@ -1,0 +1,23 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-lillydootestpaket-dev-125924-authRole",
+            "UnauthRoleArn": "arn:aws:iam::156533490125:role/amplify-lillydootestpaket-dev-125924-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::156533490125:role/amplify-lillydootestpaket-dev-125924-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-lillydootestpaket-dev-125924-deployment",
+            "UnauthRoleName": "amplify-lillydootestpaket-dev-125924-unauthRole",
+            "StackName": "amplify-lillydootestpaket-dev-125924",
+            "StackId": "arn:aws:cloudformation:us-east-1:156533490125:stack/amplify-lillydootestpaket-dev-125924/672f2be0-cd94-11ea-b646-0a1540e225b5",
+            "AmplifyAppId": "due9bglf151ud"
+        },
+        "categories": {
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "due9bglf151ud",
+                    "type": "manual"
+                }
+            }
+        }
+    }
+}

@@ -1,10 +1,10 @@
 <template>
   <div class="tbx-sizes">
-    <div class="tbx-sizes__title">
+    <h3 class="tbx-sizes__title">
       {{ $t("trialbox.sizes.title") }}
-    </div>
+    </h3>
     <div class="tbx-sizes__select">
-      <div
+      <button
         class="tbx-sizes__item"
         :class="{ 'tbx-sizes__item_active': active == item.size }"
         v-for="item in products"
@@ -13,7 +13,7 @@
       >
         <div class="tbx-sizes__item-size">{{ item.size }}</div>
         <div class="tbx-sizes__item-weight">({{ item.weight }})</div>
-      </div>
+      </button>
     </div>
   </div>
 </template>
@@ -73,6 +73,7 @@ export default class TrialboxProductSizes extends Vue {
       width: 100%
       display: flex
       justify-content: center
+      align-items: center
       flex-direction: column
     &:last-child
       margin-right: 0

@@ -1,7 +1,7 @@
 <template>
   <section clas="tbx-package">
     <div class="tbx-container tbx-package__content">
-      <div class="tbx-package__title">{{ $t("trialbox.contents.title") }}</div>
+      <h3 class="tbx-package__title">{{ $t("trialbox.contents.title") }}</h3>
       <div class="tbx-package__row">
         <TrialboxPackageContent class="tbx-package__item" :item="packages[0]" />
         <TrialboxPackageContent

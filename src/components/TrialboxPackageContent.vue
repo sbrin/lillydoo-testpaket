@@ -1,10 +1,10 @@
 <template>
   <div class="tbx-p-content">
     <div class="tbx-p-content__image">
-      <img :src="item.img" :alt="item.title" />
+      <img :src="item.img" :alt="item.title" loading="lazy" />
     </div>
     <div class="tbx-p-content__description">
-      <div class="tbx-p-content__title">{{ item.title }}</div>
+      <h3 class="tbx-p-content__title">{{ item.title }}</h3>
       <div class="tbx-p-content__stars">
         <div class="tbx-star"></div>
         <div class="tbx-star"></div>

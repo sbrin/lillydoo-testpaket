@@ -10,46 +10,49 @@
             <img
               src="@/assets/img/icons/icon-present.svg"
               :alt="$t('trialbox.howitworks.step-testpaket')"
+              loading="lazy"
             />
           </div>
-          <div class="tbx-howitworks__step-title">
+          <h3 class="tbx-howitworks__step-title">
             {{ $t("trialbox.howitworks.step-testpaket") }}
-          </div>
-          <div
+          </h3>
+          <p
             class="tbx-howitworks__step-description"
             v-html="$t('trialbox.howitworks.step-testpaket.description')"
-          ></div>
+          ></p>
         </div>
         <div class="tbx-howitworks__column">
           <div class="tbx-howitworks__icon">
             <img
               src="@/assets/img/icons/icon-lock.svg"
               :alt="$t('trialbox.howitworks.step-flexi')"
+              loading="lazy"
             />
           </div>
-          <div class="tbx-howitworks__step-title">
+          <h3 class="tbx-howitworks__step-title">
             {{ $t("trialbox.howitworks.step-flexi") }}
-          </div>
-          <div class="tbx-howitworks__step-description">
+          </h3>
+          <p class="tbx-howitworks__step-description">
             {{ $t("trialbox.howitworks.step-flexi.description") }}
-            <div class="tbx-howitworks__more">
+            <span class="tbx-howitworks__more">
               <a href="#" v-html="$t('trialbox.howitworks.more')"></a>
-            </div>
-          </div>
+            </span>
+          </p>
         </div>
         <div class="tbx-howitworks__column">
           <div class="tbx-howitworks__icon">
             <img
               src="@/assets/img/icons/icon-box.svg"
               :alt="$t('trialbox.howitworks.step-monats')"
+              loading="lazy"
             />
           </div>
-          <div class="tbx-howitworks__step-title">
+          <h3 class="tbx-howitworks__step-title">
             {{ $t("trialbox.howitworks.step-monats") }}
-          </div>
-          <div class="tbx-howitworks__step-description">
+          </h3>
+          <p class="tbx-howitworks__step-description">
             {{ $t("trialbox.howitworks.step-monats.description") }}
-          </div>
+          </p>
         </div>
       </div>
     </div>
@@ -121,4 +124,5 @@ export default class TrialboxHowitworks extends Vue {}
     font-size: $font-size-text
     line-height: $line-height-md
     padding-top: 1.7rem
+    display: block
 </style>
